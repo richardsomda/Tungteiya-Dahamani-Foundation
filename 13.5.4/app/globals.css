@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+
+
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.head1style{
+  @apply  text-xs  text-ouryellow ;
+ }
+.head2style{
+  @apply  text-sm  text-ourblack  ;
+ }
+.menubutton {
+  @apply  px-4 font-medium mx-1 py-3 hover:bg-gray-100 rounded-full text-ourblack  ;
+ }
+.divider {
+  @apply  px-1  text-ouryellow  ;
+ }
+
+ .buttonprimary {
+  @apply px-4 mx-3 py-3 text-white rounded-full hover:bg-opacity-90 active:bg-opacity-100 text-sm bg-ourblack;
+ }
+ .buttonprimary2 {
+  @apply px-6 py-3 text-white rounded-full hover:bg-opacity-90 active:bg-opacity-100  bg-ourblack;
+ }
+ .buttonprimary3 {
+  @apply px-3 py-2 text-white rounded-full hover:bg-opacity-90 active:bg-opacity-100  bg-ourblack;
+ }
+
+
+
+
+ .buttonsecondary {
+  @apply px-6 py-3 text-ourblack rounded-full hover:bg-opacity-90 active:bg-opacity-100  bg-white;
+ }
+
+ .heroBackground {
+  background-image: url('/hero1.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .videoImage {
+  background-image: url('/video.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .becomeAV {
+  background-image: url('/bav.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proone {
+  background-image: url('/pro1.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .protwo {
+  background-image: url('/pro2.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .protwo {
+  background-image: url('/pro2.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .prothree {
+  background-image: url('/pro3.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .profour {
+  background-image: url('/pro4.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .profive {
+  background-image: url('/pro5.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .teamone {
+  background-image: url('/t1.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ @font-face {
+  font-family: 'Shippori Antique';
+  src: url('/fonts/Shippori Antique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Sue Ellen';
+  src: url('/fonts/SueEllenFrancisco-Regular.ttf') format('truetype');
+  src: url('/fonts/SueEllenFrancisco-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mincho';
+  src: url('/fonts/ShipporiMincho-Regular') format('truetype');
+  src: url('/fonts/ShipporiMincho-Regular') format('truetype');
+}
