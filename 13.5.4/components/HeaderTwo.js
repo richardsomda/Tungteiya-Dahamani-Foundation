@@ -9,7 +9,7 @@ export default function HeaderTwo() {
     const [menu, setMenu] = useState('Home');
 
     return (
-        <div className='w-[60%] mx-auto py-4 flex justify-between'>
+        <div className='w-[70%] mx-auto py-2 flex items-center justify-between'>
             <Image
                 src={'/logo.png'}
                 width={60}
@@ -54,16 +54,24 @@ export default function HeaderTwo() {
                 </div>
 
 
+
+
+
+
+
+            </div>
+
+
+            <div className='flex items-center'>
                 {/* Contact */}
                 <div className='flex items-center'>
                     <button className='buttonprimary'>
                         Donate
                     </button>
                 </div>
-
-
-
-
+                <button className='text-sm px-4 mx-2     py-3 hover:bg-gray-100 active:bg-black active:text-white rounded-full border-ourblack border-2 border-opacity-o'>
+                    Login
+                </button>
             </div>
         </div>
     )

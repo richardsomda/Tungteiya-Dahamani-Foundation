@@ -23,7 +23,7 @@
  }
 
  .buttonprimary {
-  @apply px-4 mx-3 py-3 text-white rounded-full hover:bg-opacity-90 active:bg-opacity-100 text-sm bg-ourblack;
+  @apply px-4 mx-2 py-3 text-white rounded-full hover:bg-opacity-90 active:bg-opacity-100 text-sm bg-ourblack;
  }
  .buttonprimary2 {
   @apply px-6 py-3 text-white rounded-full hover:bg-opacity-90 active:bg-opacity-100  bg-ourblack;
@@ -45,6 +45,20 @@
   background-repeat: no-repeat;
   background-size: cover;
  }
+ .flagshipbg {
+  background-image: url('/pro5.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity 0.5s; /* Adding a transition effect for a smoother change */
+  opacity: 0.4;
+}
+
+.flagshipbg:hover {
+  opacity: 1; /* Change the opacity on hover */
+}
+
+
  .videoImage {
   background-image: url('/video.png');
   object-fit: cover;

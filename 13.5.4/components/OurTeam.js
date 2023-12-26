@@ -31,25 +31,7 @@ export default function OurTeam() {
                         </div>
 
                     </div>
-                    <div className='flex items-center gap-8 my-6 justify-center'>
-                        <div className='w-[23%]'>
-                            <div className=' teamone h-72'> </div>
-                            <p className='font-semibold my-3 text-center'>Bruce Kambotuu</p>
-                        </div>
-                        <div className='w-[23%]'>
-                            <div className=' teamone h-72'> </div>
-                            <p className='font-semibold my-3 text-center'>Bruce Kambotuu</p>
-                        </div>
-                        <div className='w-[23%]'>
-                            <div className=' teamone h-72'> </div>
-                            <p className='font-semibold my-3 text-center'>Bruce Kambotuu</p>
-                        </div>
-                        <div className='w-[23%]'>
-                            <div className=' teamone h-72'> </div>
-                            <p className='font-semibold my-3 text-center'>Bruce Kambotuu</p>
-                        </div>
 
-                    </div>
 
                     <div className='bg-[#77D7D3] py-4 px-8 flex justify-center'>
                         <div className='items-center flex flex-col'>

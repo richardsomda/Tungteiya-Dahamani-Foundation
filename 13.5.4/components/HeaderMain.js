@@ -4,9 +4,12 @@ import HeaderTwo from './HeaderTwo'
 
 export default function HeaderMain() {
     return (
-        <div>
+        <div className=''>
             <HeaderOne />
-            <HeaderTwo />
+            <div>
+                <HeaderTwo />
+
+            </div>
         </div>
     )
 }

@@ -8,12 +8,11 @@ export default function OurCauses() {
     return (
         <div className='bg-ouryellow py-12'>
 
-            <div className='w-[50%]  mx-auto'>
+            <div className='w-[60%]  mx-auto'>
                 <div className=' flex justify-between items-center'>
                     <div>
                         <p className=' my-1'>Our Causes</p>
-                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-2xl'>You can help lots of people by
-                            donating little.</h1>
+                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-3xl'>Transforming Little Donations <br /> into Big Impacts</h1>
                     </div>
 
                     <button className='buttonprimary2 text-xs my-3'>
@@ -25,7 +24,7 @@ export default function OurCauses() {
             <div className='flex items-center justify-center'>
                 <div>
                     <div className='flex gap-4 my-12'>
-                        <div className='w-[%] bg-white'>
+                        <div className='w-[%] cursor-pointer  bg-white'>
                             <Image
                                 src={'/cause2.jpeg'}
                                 width={200}
@@ -58,7 +57,7 @@ export default function OurCauses() {
 
                         </div>
 
-                        <div className='w-[%] bg-white'>
+                        <div className='w-[%] cursor-pointer  bg-white'>
                             <Image
                                 src={'/cause2.jpeg'}
                                 width={200}
@@ -92,7 +91,7 @@ export default function OurCauses() {
                         </div>
 
 
-                        <div className='w-[%] bg-white'>
+                        <div className='w-[%] cursor-pointer  bg-white'>
                             <Image
                                 src={'/cause2.jpeg'}
                                 width={200}
