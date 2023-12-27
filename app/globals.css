@@ -79,9 +79,9 @@
  }
  .protwo {
   background-image: url('/pro2.jpg');
-  object-fit: cover;
+  object-fit: contain;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
  }
  .protwo {
   background-image: url('/pro2.jpg');
@@ -109,6 +109,12 @@
  }
  .teamone {
   background-image: url('/t1.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proImage1 {
+  background-image: url('/pro2.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;

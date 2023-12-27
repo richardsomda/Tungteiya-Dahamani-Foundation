@@ -10,10 +10,10 @@ export default function HeaderOne() {
     return (
         <div>
             <div className='bg-black  flex   '>
-                <div className='bg-ouryellow w-1/3'>
+                <div className='bg-ouryellow w-1/3 h-8'>
                     <div className='flex items-center gap-1 justify-center w-full'>
-                        <p>The</p>
-                        <p className='text-ourblack font-bold py-2 text-lg text-center'>Tungteiya Dahamani Foundation</p>
+                        {/* <p>The</p> */}
+                        {/* <p className='text-ourblack font-bold py-2 text-lg text-center'>Tungteiya Dahamani Foundation</p> */}
                     </div>
 
                 </div>

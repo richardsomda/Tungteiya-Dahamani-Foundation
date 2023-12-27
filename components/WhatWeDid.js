@@ -13,22 +13,24 @@ export default function WhatWeDid() {
                     <h1 style={{ fontFamily: 'mincho' }} className='text-center font-bold text-3xl'>We do it for People in Need</h1>
 
                     {/* row one */}
-                    <div className=' my-16 flex items-center justify-center'>
-                        <div className='w-[30%] flex flex-col gap-1 justify-center items-center'>
+                    <div className=' my-16 flex flex-wrap md:flex w-full items-center justify-center'>
+
+                        <div className='w-full md:w-1/3 my-3 md:my-1 flex flex-col gap-1 justify-center items-center'>
                             <div className='text-2xl'>
                                 <StreamOutlinedIcon className='text-ourpink w-10 h-10 ' />
                             </div>
                             <h1 className='font-semibold text-center'>Vocational Training</h1>
                             <p className='text-[#727272] w-[90%]  text-sm text-center'>Our flagship project, Kaya Lahakani, focuses on empowering young girls with vocational skills such as sewing, hairdressing, and smock weaving. </p>
                         </div>
-                        <div className='w-[30%] flex flex-col gap-1 justify-center items-center'>
+
+                        <div className='w-full md:w-1/3 my-3 md:my-1 flex flex-col gap-1 justify-center items-center'>
                             <div className='text-2xl'>
                                 <BloodtypeOutlinedIcon className='text-ourpink w-10 h-10 ' />
                             </div>
                             <h1 className='font-semibold text-center'> Health Initiatives</h1>
                             <p className='text-[#727272] w-[90%]  text-sm text-center'>We prioritize health with projects like breast screening exercises, menstrual health support, and reproductive health symposiums.</p>
                         </div>
-                        <div className='w-[30%] flex flex-col gap-1 justify-center items-center'>
+                        <div className='w-full md:w-1/3 my-3 md:my-1 flex flex-col gap-1 justify-center items-center'>
                             <div className='text-2xl'>
                                 <WaterDropOutlinedIcon className='text-ourpink w-10 h-10 ' />
                             </div>
@@ -36,15 +38,15 @@ export default function WhatWeDid() {
                             <p className='text-[#727272] w-[90%]  text-sm text-center'>In collaboration with organizations like Universal Islamic and Cultural Trust, we commission boreholes to improve access to clean water. </p>
                         </div>
                     </div>
-                    <div className=' my-16 flex items-center justify-center'>
-                        <div className='w-[30%] flex flex-col gap-1 justify-center items-center'>
+                    <div className=' my-16 flex flex-wrap md:flex w-full items-center justify-center'>
+                        <div className='w-full md:w-1/3 my-3 md:my-1 flex flex-col gap-1 justify-center items-center'>
                             <div className='text-2xl'>
                                 <StreamOutlinedIcon className='text-ourpink w-10 h-10 ' />
                             </div>
                             <h1 className='font-semibold text-center'> Hunger Mitigation and Food Security</h1>
                             <p className='text-[#727272] w-[90%]  text-sm text-center'>We are actively involved in initiatives addressing hunger challenges. From farming food crops to donating food items to widowed and aged women.</p>
                         </div>
-                        <div className='w-[30%] flex flex-col gap-1 justify-center items-center'>
+                        <div className='w-full md:w-1/3 my-3 md:my-1 flex flex-col gap-1 justify-center items-center'>
                             <div className='text-2xl'>
                                 <BloodtypeOutlinedIcon className='text-ourpink w-10 h-10 ' />
                             </div>
@@ -53,7 +55,7 @@ export default function WhatWeDid() {
 
                             </p>
                         </div>
-                        <div className='w-[30%] flex flex-col gap-1 justify-center items-center'>
+                        <div className='w-full md:w-1/3 my-3 md:my-1 flex flex-col gap-1 justify-center items-center'>
                             <div className='text-2xl'>
                                 <HdrWeakOutlinedIcon className='text-ourpink w-10 h-10 ' />
                             </div>

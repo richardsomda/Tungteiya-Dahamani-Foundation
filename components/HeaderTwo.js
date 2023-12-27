@@ -36,10 +36,17 @@ export default function HeaderTwo() {
                 </div>
 
 
-                {/* Pages */}
+                {/* Projects */}
                 <div className='flex items-center'>
-                    <button onClick={() => setMenu('pages')} className={` ${menu === 'pages' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        Pages
+                    <button onClick={() => setMenu('projects')} className={` ${menu === 'projects' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                        Projects
+                    </button>
+                    <p className='divider'>|</p>
+                </div>
+                {/* Projects */}
+                <div className='flex items-center'>
+                    <button onClick={() => setMenu('team')} className={` ${menu === 'team' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                        Team
                     </button>
                     <p className='divider'>|</p>
                 </div>
@@ -69,9 +76,9 @@ export default function HeaderTwo() {
                         Donate
                     </button>
                 </div>
-                <button className='text-sm px-4 mx-2     py-3 hover:bg-gray-100 active:bg-black active:text-white rounded-full border-ourblack border-2 border-opacity-o'>
+                {/* <button className='text-sm px-4 mx-2     py-3 hover:bg-gray-100 active:bg-black active:text-white rounded-full border-ourblack border-2 border-opacity-o'>
                     Login
-                </button>
+                </button> */}
             </div>
         </div>
     )

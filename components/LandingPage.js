@@ -13,7 +13,10 @@ export default function LandingPage() {
     return (
         <div className=''>
             <Hero />
-            <AboutUsIntro />
+            <div className='mt-[800px] md:my-2'>
+                <AboutUsIntro />
+            </div>
+
             <OurCauses />
             <BecomeAVolunteer />
             <WhatWeDid />
