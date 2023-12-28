@@ -45,6 +45,18 @@
   background-repeat: no-repeat;
   background-size: cover;
  }
+ .aboutBackground {
+  background-image: url('/aboutus.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .projectsBackground {
+  background-image: url('/causes.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
  .flagshipbg {
   background-image: url('/pro5.png');
   object-fit: cover;
@@ -115,6 +127,36 @@
  }
  .proImage1 {
   background-image: url('/pro2.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proImage2 {
+  background-image: url('/breast.jpeg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proImage3 {
+  background-image: url('/repro.jpeg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proImage4 {
+  background-image: url('/widows.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proImage5 {
+  background-image: url('/special.jpeg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proImage6 {
+  background-image: url('/clean.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;

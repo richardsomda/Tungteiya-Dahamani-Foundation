@@ -1,7 +1,9 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link';
 import React, { useState } from 'react'
+
 
 
 export default function HeaderTwo() {
@@ -10,37 +12,47 @@ export default function HeaderTwo() {
 
     return (
         <div className='w-[70%] mx-auto py-2 flex items-center justify-between'>
-            <Image
-                src={'/logo.png'}
-                width={60}
-                height={40}
-            />
+            <Link href={'/'}>
+                <button>
+                    <Image
+                        src={'/logo.png'}
+                        width={60}
+                        height={40}
+                    />
+                </button>
+            </Link>
 
             <div className='px-2 flex items-center'>
 
                 {/* Home */}
                 <div className='flex items-center'>
-                    <button onClick={() => setMenu('Home')} className={` ${menu === 'Home' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        Home
-                    </button>
+                    <Link href={'/'}>
+                        <button onClick={() => setMenu('Home')} className={` ${menu === 'Home' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                            Home
+                        </button>
+                    </Link>
                     <p className='divider'>|</p>
                 </div>
 
 
                 {/* About Us */}
                 <div className='flex items-center '>
-                    <button onClick={() => setMenu('about')} className={` ${menu === 'about' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        About Us
-                    </button>
+                    <Link href={'/about'}>
+                        <button onClick={() => setMenu('about')} className={` ${menu === 'about' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                            About Us
+                        </button>
+                    </Link>
                     <p className='divider'>|</p>
                 </div>
 
 
                 {/* Projects */}
                 <div className='flex items-center'>
-                    <button onClick={() => setMenu('projects')} className={` ${menu === 'projects' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        Projects
-                    </button>
+                    <Link href={'/projects'}>
+                        <button onClick={() => setMenu('projects')} className={` ${menu === 'projects' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                            Projects
+                        </button>
+                    </Link>
                     <p className='divider'>|</p>
                 </div>
                 {/* Projects */}
