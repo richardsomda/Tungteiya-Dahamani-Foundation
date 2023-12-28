@@ -3,28 +3,33 @@ import RadioButtonCheckedOutlinedIcon from '@mui/icons-material/RadioButtonCheck
 
 export default function AboutUsIntro() {
     return (
-        <div className='w-full flex justify-center mt-44 mb-28'>
-            <div className='w-[70%]  mx-auto flex  justify-center '>
+        <div className='w-full flex justify-center mt-44 mb-28 md:mt-60'>
 
-                <div className=' w-[45%]'>
+
+            <div className='w-[70%] flex flex-wrap md:flex  mx-auto   justify-center '>
+
+                <div className=' w-full md:w-[45%]'>
                     <p className='text-ourpink my-1'>About us</p>
                     <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-3xl'>Empowering Lives, <br /> Inspiring Change</h1>
-                    <p className='text-[#727272] text-sm w-[80%]  my-2'>Our core mission is to empower lives and inspire positive change. We envision a world where the grip of poverty and hunger is replaced with opportunities for growth and prosperity.
+                    <p className='text-[#727272] text-sm w-full md:w-[80%]  my-2'>Our core mission is to empower lives and inspire positive change. We envision a world where the grip of poverty and hunger is replaced with opportunities for growth and prosperity.
                     </p>
 
-                    <button className='buttonprimary2 text-xs my-3'>
+                    <button className='buttonprimary2 text-xs my-4'>
                         More About
                     </button>
                 </div>
 
 
 
-                <div className='bg-[#ECF1F0] w-[55%] py-6 flex items-center justify-center'>
+                <div className='bg-[#ECF1F0] w-full md:w-[55%] my-3 md:my-0 py-6 flex items-center justify-center'>
                     <div className='w-full'>
                         <div className='w-[80%] mx-auto'>
+
                             <h1 style={{ fontFamily: 'mincho' }} className='font-bold   text-xl'>
-                                Donations Receivable</h1 >
-                            <div className='flex justify-between gap-12 text-sm w-full '>
+                                Donations Receivable
+                            </h1 >
+
+                            <div className='flex justify-between gap-12 text-xs md:text-sm w-full '>
                                 <div>
                                     <div className='flex gap-2 my-2 items-center'>
                                         <RadioButtonCheckedOutlinedIcon className='text-[#77D7D3]' />
@@ -63,7 +68,7 @@ export default function AboutUsIntro() {
                                         <div className='relatie border-2 h- border-[#C5CECC] w-full'></div>
                                         <div className='absolut transform -translate-y-1 border-2 border-ourpink w-[37%]'></div>
                                     </div>
-                                    <div className='text-sm flex justify-between'>
+                                    <div className='text-xs md:text-sm flex justify-between'>
                                         <p className='font-semibold my-2'>Lives Imparted - 307K</p>
                                         <p className='font-semibold my-2'>Goal - 1M</p>
                                     </div>

@@ -8,30 +8,34 @@ export default function OurCauses() {
     return (
         <div className='bg-ouryellow py-12'>
 
-            <div className='w-[60%]  mx-auto'>
-                <div className=' flex justify-between items-center'>
-                    <div>
+            <div className='w-[60%]   mx-auto'>
+                <div className=' flex flex-wrap md:flex justify-between items-center'>
+                    <div className='w-[70%]'>
                         <p className=' my-1'>Our Causes</p>
-                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-3xl'>Transforming Little Donations <br /> into Big Impacts</h1>
+                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold md:w-[80%] w-full text-2xl md:text-3xl'>Transforming Little Donations <br /> into Big Impacts</h1>
                     </div>
 
-                    <button className='buttonprimary2 text-xs my-3'>
+                    <button className='buttonprimary2 text-xs my-6'>
                         More Causes
                     </button>
                 </div>
             </div>
+
+
             {/* projects */}
             <div className='flex items-center justify-center'>
-                <div>
-                    <div className='flex gap-4 my-12'>
-                        <div className='w-[%] cursor-pointer  bg-white'>
-                            <Image
-                                src={'/cause2.jpeg'}
+                <div className='w-[70%]'>
+                    <div className='flex flex-wrap md:flex justify-center gap-4 my-12'>
+                        <div className='w-full md:w-[25%] cursor-pointer my-3   bg-white'>
+                            {/* <Image
+                                src={'/pro2.jpg'}
                                 width={200}
                                 height={50}
-                                className='w-full'
+                                className='full'
 
-                            />
+                            /> */}
+
+                            <div className='h-44 proImage1'></div>
 
                             <div className='w-[80%] my-3  mx-auto'>
                                 <h1 style={{ fontFamily: 'mincho' }} className='font-semibold'>Big charity: build school for  <br />poor children</h1>
@@ -52,19 +56,17 @@ export default function OurCauses() {
                                     Donate Now
                                 </button>
                             </div>
-
-
-
                         </div>
-
-                        <div className='w-[%] cursor-pointer  bg-white'>
-                            <Image
-                                src={'/cause2.jpeg'}
+                        <div className='w-full md:w-[25%] cursor-pointer my-3   bg-white'>
+                            {/* <Image
+                                src={'/pro2.jpg'}
                                 width={200}
                                 height={50}
-                                className='w-full'
+                                className='full'
 
-                            />
+                            /> */}
+
+                            <div className='h-44 proImage1'></div>
 
                             <div className='w-[80%] my-3  mx-auto'>
                                 <h1 style={{ fontFamily: 'mincho' }} className='font-semibold'>Big charity: build school for  <br />poor children</h1>
@@ -85,20 +87,17 @@ export default function OurCauses() {
                                     Donate Now
                                 </button>
                             </div>
-
-
-
                         </div>
-
-
-                        <div className='w-[%] cursor-pointer  bg-white'>
-                            <Image
-                                src={'/cause2.jpeg'}
+                        <div className='w-full md:w-[25%] cursor-pointer my-3   bg-white'>
+                            {/* <Image
+                                src={'/pro2.jpg'}
                                 width={200}
                                 height={50}
-                                className='w-full'
+                                className='full'
 
-                            />
+                            /> */}
+
+                            <div className='h-44 proImage1'></div>
 
                             <div className='w-[80%] my-3  mx-auto'>
                                 <h1 style={{ fontFamily: 'mincho' }} className='font-semibold'>Big charity: build school for  <br />poor children</h1>
@@ -119,14 +118,12 @@ export default function OurCauses() {
                                     Donate Now
                                 </button>
                             </div>
-
-
-
                         </div>
+
 
                     </div>
 
-                    <div className='flex gap-4 justify-center'>
+                    <div className=' gap-4 hidden md:flex justify-center'>
                         <button className='bg-white hover:bg-opacity-80 active:bg-opacity-100 px-2 py-2 rounded-full'>
                             <ChevronLeftRoundedIcon />
                         </button>

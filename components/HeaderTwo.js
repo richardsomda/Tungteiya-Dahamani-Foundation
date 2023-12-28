@@ -1,7 +1,9 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link';
 import React, { useState } from 'react'
+
 
 
 export default function HeaderTwo() {
@@ -10,36 +12,53 @@ export default function HeaderTwo() {
 
     return (
         <div className='w-[70%] mx-auto py-2 flex items-center justify-between'>
-            <Image
-                src={'/logo.png'}
-                width={60}
-                height={40}
-            />
+            <Link href={'/'}>
+                <button>
+                    <Image
+                        src={'/logo.png'}
+                        width={60}
+                        height={40}
+                    />
+                </button>
+            </Link>
 
             <div className='px-2 flex items-center'>
 
                 {/* Home */}
                 <div className='flex items-center'>
-                    <button onClick={() => setMenu('Home')} className={` ${menu === 'Home' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        Home
-                    </button>
+                    <Link href={'/'}>
+                        <button onClick={() => setMenu('Home')} className={` ${menu === 'Home' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                            Home
+                        </button>
+                    </Link>
                     <p className='divider'>|</p>
                 </div>
 
 
                 {/* About Us */}
                 <div className='flex items-center '>
-                    <button onClick={() => setMenu('about')} className={` ${menu === 'about' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        About Us
-                    </button>
+                    <Link href={'/about'}>
+                        <button onClick={() => setMenu('about')} className={` ${menu === 'about' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                            About Us
+                        </button>
+                    </Link>
                     <p className='divider'>|</p>
                 </div>
 
 
-                {/* Pages */}
+                {/* Projects */}
                 <div className='flex items-center'>
-                    <button onClick={() => setMenu('pages')} className={` ${menu === 'pages' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        Pages
+                    <Link href={'/projects'}>
+                        <button onClick={() => setMenu('projects')} className={` ${menu === 'projects' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                            Projects
+                        </button>
+                    </Link>
+                    <p className='divider'>|</p>
+                </div>
+                {/* Projects */}
+                <div className='flex items-center'>
+                    <button onClick={() => setMenu('team')} className={` ${menu === 'team' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                        Team
                     </button>
                     <p className='divider'>|</p>
                 </div>
@@ -69,9 +88,9 @@ export default function HeaderTwo() {
                         Donate
                     </button>
                 </div>
-                <button className='text-sm px-4 mx-2     py-3 hover:bg-gray-100 active:bg-black active:text-white rounded-full border-ourblack border-2 border-opacity-o'>
+                {/* <button className='text-sm px-4 mx-2     py-3 hover:bg-gray-100 active:bg-black active:text-white rounded-full border-ourblack border-2 border-opacity-o'>
                     Login
-                </button>
+                </button> */}
             </div>
         </div>
     )
