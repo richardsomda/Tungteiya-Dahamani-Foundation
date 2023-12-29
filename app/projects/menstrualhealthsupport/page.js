@@ -32,7 +32,8 @@ export default function page() {
 
                 <div className='w-[80%] md:w-[70%] mx-auto py-6 md:py-40'>
                     <h1 className='text-ourpink  text-lg mb-1'>Our Work</h1>
-                    <h1 style={{ fontFamily: 'mincho' }} className='font-b mt-1 text-white md:text-7xl text-4xl'>Breast Cancer <br /> Screening  Exercise</h1>
+                    <h1 style={{ fontFamily: 'mincho' }} className='font-b mt-1 text-white md:text-7xl text-4xl'>Menstrual Health Support
+                    </h1>
                 </div>
 
             </div>
