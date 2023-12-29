@@ -1,16 +1,22 @@
+'use client'
+
+
 import Image from 'next/image'
-import React from 'react'
+import React, { useRef } from 'react';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import Newsletter from '@/components/Newsletter';
+import Link from 'next/link';
 
 
 export default function page() {
+
+
     return (
         <>
-            <div className='w-full projectsBackground h-60 md:h-[500px]'>
+            <div className='w-full projectsBackground h-60 md:h-[600px]'>
 
                 <div className='w-[80%] md:w-[70%] mx-auto py-6 md:py-40'>
-                    <h1 className='text-ourpink  text-lg mb-3'>Undertake Projects</h1>
+                    <h1 className='text-ourpink  text-lg mb-3'>Undertaken Projects</h1>
                     <h1 style={{ fontFamily: 'mincho' }} className='font-bol mt-2 text-white md:text-7xl text-4xl'>Our Causes</h1>
                 </div>
 
@@ -20,15 +26,15 @@ export default function page() {
             <div className='w-full  bg-[#F1EEEC] '>
                 <div className="w-[80%]  md:w-[70%] mx-auto bg-blue-20  py-12 md:py-16 ">
                     <div className='flex flex-wrap lg:flex justify-betwee gap-4'>
+
                         {/* kayalahakani */}
                         <div className='w-full md:w-[30%] cursor-pointer my-3   bg-white'>
-
 
                             <div className='h-48 proImage1'></div>
 
                             <div className='w-[80%] my-3  mx-auto'>
                                 <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-2xl'>Kaya Lahakani Project</h1>
-                                <p className='my-3 text-[#727272] text-xs'>designed to address the specific needs of young girls in underprivileged communities, particularly within the Northern sector of Ghana.</p>
+                                <p className='my-3 text-[#727272] text-xs'>Designed to address the specific needs of young girls in underprivileged communities, particularly within the Northern sector of Ghana.</p>
 
 
                             </div>
@@ -49,15 +55,18 @@ export default function page() {
 
 
                             <div className='flex gap-3 items-center w-[80%] my-3 mx-auto'>
-                                <button className='buttonprimary3 mb-6 mt-2 text-xs'>
-                                    View Project
-                                </button>
+                                <Link href={'/projects/kayalahakani'}>
+                                    <button className='buttonprimary3 mb-6 mt-2 text-xs'>
+                                        View Project
+                                    </button>
+                                </Link>
 
                                 <button className='px-3 rounded-full py-2 border-ourblack border mb-6 mt-2 text-xs'>
                                     Donate Now
                                 </button>
                             </div>
                         </div>
+
 
 
 
@@ -69,7 +78,7 @@ export default function page() {
 
                             <div className='w-[80%] my-3  mx-auto'>
                                 <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-2xl'>Breast Screening Exercise</h1>
-                                <p className='my-3 text-[#727272] text-xs'>a free breast
+                                <p className='my-3 text-[#727272] text-xs'>A free breast
                                     screening exercise for kayayo women in Madina, Accra, contributing to early
                                     detection and awareness.
                                 </p>
@@ -93,9 +102,11 @@ export default function page() {
 
 
                             <div className='flex gap-3 items-center w-[80%] my-3 mx-auto'>
-                                <button className='buttonprimary3 mb-6 mt-2 text-xs'>
-                                    View Project
-                                </button>
+                                <Link href={'/projects/breastscreeningexercise'}>
+                                    <button className='buttonprimary3 mb-6 mt-2 text-xs'>
+                                        View Project
+                                    </button>
+                                </Link>
 
                                 <button className='px-3 rounded-full py-2 border-ourblack border mb-6 mt-2 text-xs'>
                                     Donate Now
