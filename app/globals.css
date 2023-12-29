@@ -57,6 +57,18 @@
   background-repeat: no-repeat;
   background-size: cover;
  }
+ .kayaBackground {
+  background-image: url('/44.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .breastBackground {
+  background-image: url('/breast1.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
  .flagshipbg {
   background-image: url('/pro5.png');
   object-fit: cover;
@@ -157,6 +169,12 @@
  }
  .proImage6 {
   background-image: url('/clean.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .kaya2 {
+  background-image: url('/kaya1.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;

@@ -7,7 +7,7 @@ import Newsletter from '@/components/Newsletter';
 export default function page() {
     return (
         <>
-            <div className='w-full aboutBackground h-60 md:h-[500px]'>
+            <div className='w-full aboutBackground h-60 md:h-[600px]'>
 
                 <div className='w-[80%] md:w-[70%] mx-auto py-6 md:py-40'>
                     <h1 className='text-ourpink  text-lg mb-3'>What We Do</h1>
