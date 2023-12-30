@@ -105,6 +105,25 @@
   background-repeat: no-repeat;
   background-size: cover;
  }
+ .teamBackground {
+  background-image: url('/team.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .contactBackground {
+  background-image: url('/contact.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+
+
+
+
+
+
  .flagshipbg {
   background-image: url('/pro5.png');
   object-fit: cover;
@@ -176,6 +195,18 @@
  }
  .teamthree {
   background-image: url('/bruce.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .teamfour {
+  background-image: url('/basit.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .teamfive {
+  background-image: url('/malik.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
