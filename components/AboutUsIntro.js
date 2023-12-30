@@ -70,10 +70,10 @@ export default function AboutUsIntro() {
 
                                     <div className='items-center'>
                                         <div className='relatie border-2 h- border-[#C5CECC] w-full'></div>
-                                        <div className='absolut transform -translate-y-1 border-2 border-ourpink w-[37%]'></div>
+                                        <div className='absolut transform -translate-y-1 border-2 border-ourpink w-[10%]'></div>
                                     </div>
                                     <div className='text-xs md:text-sm flex justify-between'>
-                                        <p className='font-semibold my-2'>Lives Imparted - 307K</p>
+                                        <p className='font-semibold my-2'>Lives Imparted - 1K+</p>
                                         <p className='font-semibold my-2'>Goal - 1M</p>
                                     </div>
                                 </div>
