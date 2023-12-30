@@ -1,7 +1,6 @@
 'use client'// ProjectGalleryComponent.js
 import React, { useState, useCallback } from 'react';
-import Gallery from 'react-photo-gallery';
-import Carousel, { ModalGateway } from 'react-images';
+import Gallery from 'react-image-gallery';
 
 const ProjectGalleryComponent = ({ projectFolder, numImages, imagesPerPage }) => {
     const basePath = `/${projectFolder}/`;
@@ -32,14 +31,13 @@ const ProjectGalleryComponent = ({ projectFolder, numImages, imagesPerPage }) =>
     const handlePreviousPage = () => {
         const newPage = currentPage - 1;
         if (newPage >= 1) {
-            setCurrentPage(newPage);
             const startIndex = (newPage - 1) * imagesPerPage;
-            const endIndex = startIndex + imagesPerPage;
             const newImages = Array.from({ length: imagesPerPage }, (_, index) => ({
                 src: `${basePath}${startIndex + index + 1}.jpg`,
                 width: 1,
                 height: 1,
             }));
+            setCurrentPage(newPage);
             setCurrentImages(newImages);
         }
     };
@@ -47,22 +45,22 @@ const ProjectGalleryComponent = ({ projectFolder, numImages, imagesPerPage }) =>
     const handleNextPage = () => {
         const newPage = currentPage + 1;
         if (newPage <= totalPages) {
-            setCurrentPage(newPage);
             const startIndex = (newPage - 1) * imagesPerPage;
-            const endIndex = startIndex + imagesPerPage;
             const newImages = Array.from({ length: imagesPerPage }, (_, index) => ({
                 src: `${basePath}${startIndex + index + 1}.jpg`,
                 width: .5,
                 height: .5,
             }));
+            setCurrentPage(newPage);
             setCurrentImages(newImages);
         }
     };
 
+
     return (
         <div className=''>
 
-            <div className=''>
+            {/* <div className=''>
                 {viewerIsOpen ? (
                     <Carousel
                         currentIndex={currentImage}
@@ -76,10 +74,14 @@ const ProjectGalleryComponent = ({ projectFolder, numImages, imagesPerPage }) =>
                 ) : null}
 
 
-            </div>
+            </div> */}
             <div className=''>
                 <div className='rounded-2xl'>
-                    <Gallery photos={currentImages} onClick={(e, { index }) => openLightbox(index)} />
+                    <Gallery items={currentImages.map(photo => ({
+                        original: photo.src,
+                        // thumbnail: photo.src,
+                        description: ''
+                    }))} />
                 </div>
 
                 {totalPages > 1 && (
