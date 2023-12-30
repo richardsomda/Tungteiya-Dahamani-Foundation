@@ -11,7 +11,7 @@ import Newsletter from './Newsletter'
 
 export default function LandingPage() {
     return (
-        <div className=''>
+        <div className='w-full'>
             <Hero />
             <div className='mt-[800px] md:my-2'>
                 <AboutUsIntro />

@@ -32,7 +32,7 @@ export default function page() {
 
                 <div className='w-[80%] md:w-[70%] mx-auto py-6 md:py-40'>
                     <h1 className='text-ourpink  text-lg mb-1'>Our Work</h1>
-                    <h1 style={{ fontFamily: 'mincho' }} className='font-b mt-1 text-white md:text-7xl text-4xl'>Menstrual Health Support
+                    <h1 style={{ fontFamily: 'mincho' }} className='font-b mt-1 text-white md:text-7xl text-4xl'>Menstrual Health <br /> Support
                     </h1>
                 </div>
 
@@ -46,7 +46,7 @@ export default function page() {
                     {/* <div className='w-full my-6 h-80 md:h-96 mx-auto kaya2'></div> */}
 
                     <div className='my-12 border-y-2 bg- py-6 bg-[#F2F2F2] px-6 '>
-                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[24px] md:text-[32px]'>Breast Cancer Screening Exercise</h1>
+                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[24px] md:text-[32px]'>Menstrual Health Support</h1>
                         {/* <p className='my-1 text-ourpin text-base'>The Kaya Lahakani Project embodies the foundation's ethos of sustainable development and empowerment, contributing to a world where every individual, regardless of their background, has the opportunity to lead a dignified life free from the hardships of poverty.</p> */}
 
                         <div onClick={scrollToDonate} className='my-2 flex gap-4 flex-wrap md:flex'>
@@ -64,62 +64,106 @@ export default function page() {
 
                     <div className='my-8'>
                         <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Overview</h1>
-                        <p className='my-1 text-[#727272] text-base'>In October 2022, the Tung Teiya Dahamani Foundation organized a free Breast Cancer Screening Exercise in Madina, Accra, as part of its commitment to promoting health and early detection. This initiative aimed to contribute to the well-being of Kayayo women by providing essential screenings and raising awareness about breast health.</p>
+                        <p className='my-1 text-[#727272] text-base'>At the Tung Teiya Dahamani Foundation, we recognize the importance of menstrual health and its impact on the well-being of women and girls. Our commitment to positive change within communities extends to addressing the unique challenges faced by individuals in the Northern sector of Ghana. Through our Menstrual Health Support initiative, we strive to create awareness, provide resources, and contribute to a healthier and more informed community.</p>
                     </div>
 
 
                     <div className='my-8'>
-                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Objectives</h1>
-                        <div>
-                            <div className='mt-6 flex items-center gap-2'>
-                                <CheckCircleOutlineIcon className='text-xl text-ourpink font-bold ' />
-                                <p className=' text-ourpink '>Early Detection and Awareness: </p>
-                            </div>
-
-                            <p className='my-1 text-[#727272] text-base'>The primary goal was to facilitate early detection of breast cancer, a crucial factor in improving treatment outcomes. By offering free screenings, we aimed to empower women with knowledge about the importance of regular check-ups.
-                            </p>
-                        </div>
-                        <div>
-                            <div className='mt-6 flex items-center gap-2'>
-                                <CheckCircleOutlineIcon className='text-xl text-ourpink font-bold ' />
-                                <p className=' text-ourpink '>Community Engagement: </p>
-                            </div>
-
-                            <p className='my-1 text-[#727272] text-base'>Beyond screenings, the program fostered community engagement and education. We believe that informed communities are better equipped to prioritize health and well-being.
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div className='my-8'>
-                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Impact and Results</h1>
-                        <p className='my-2 text-[#727272] text-base'> <span className='font-semibold'>Number of Screenings Conducted:</span>  377
-                        </p>
-                        <p className='my-2 text-[#727272] text-base'> <span className='font-semibold'>Positive Outcomes:</span>   Two instances of early detection were reported, leading to timely interventions and positive health outcomes.
-                        </p>
-
-
-
-                    </div>
-
-
-                    <div className='my-8'>
-                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Empowering Women Through Health
+                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Initiatives
                         </h1>
-                        <p className='my-2 text-[#727272] text-base'> <span className='font-semibold'>Education and Support
-                            :</span>  As part of the Breast Cancer Screening Exercise, informational sessions were conducted to educate participants about breast health. The foundation believes in providing not only medical support but also empowering women with knowledge to take charge of their well-being.
-                        </p>
-                        <p className='my-2 text-[#727272] text-base'> <span className='font-semibold'>Collaborative Partnerships
-                            :</span>  The success of this initiative was made possible through collaboration with healthcare professionals, volunteers, and community leaders. These partnerships strengthened our ability to reach and positively impact the target audience.
-                        </p>
+                        <div>
+                            <div className='mt-6 flex items-center gap-2'>
+                                <CheckCircleOutlineIcon className='text-xl text-ourpink font-bold ' />
+                                <p className=' text-ourpink '>Menstrual Health Workshops
+                                    : </p>
+                            </div>
+
+                            <p className='my-2 text-[#727272] text-base'>We conduct educational workshops focused on menstrual health. These sessions aim to empower young girls and women by providing crucial information on:
+                            </p>
+                            <p className='my-1 font-semibold text-[#727272]'>Proper menstrual hygiene practices.</p>
+                            <p className='my-1 font-semibold text-[#727272]'>Correct Usage of Sanitary Products</p>
+                            <p className='my-1 font-semibold text-[#727272]'>Understanding the Menstrual Cycle</p>
+                            <p className='my-1 font-semibold text-[#727272]'>Dispelling Myths and misconceptions</p>
+
+                            <p className='my-2 text-[#727272] text-base'>These workshops, held in schools and community centers, feature expert speakers and interactive discussions.
+                            </p>
+                        </div>
+
+
+                        <div>
+                            <div className='mt-6 flex items-center gap-2'>
+                                <CheckCircleOutlineIcon className='text-xl text-ourpink font-bold ' />
+                                <p className=' text-ourpink '> Sanitary Pad Distribution Drive: </p>
+                            </div>
+
+                            <p className='my-1 text-[#727272] text-base'>Collaborating with REEdAfrica, we actively participate in World Menstrual Health Month by organizing sanitary pad distribution drives. This initiative involves:
+                            </p>
+
+                            <div className='my-6'>
+                                <p className='my-1 font-semibold text-[#727272]'>Distributing sanitary pads to young girls in schools.</p>
+                                <p className='my-1 font-semibold text-[#727272]'>Promoting menstrual health awareness.
+                                </p>
+                                <p className='my-1 font-semibold text-[#727272]'>Partnering with local organizations for a broader impact.
+                                </p>
+                            </div>
+
+                            <p className='my-2 text-[#727272] text-base'> <span className='font-semibold'>Menstrual Health Support: </span> Collaborating with REEdAfrica, we celebrated World Menstrual Health Month by donating sanitary pads to young girls at the Zogbeli Block C school in Ghana, promoting menstrual health awareness.
+                            </p>
+                        </div>
+
+
+                        <div>
+                            <div className='mt-6 flex items-center gap-2'>
+                                <CheckCircleOutlineIcon className='text-xl text-ourpink font-bold ' />
+                                <p className=' text-ourpink '> Menstrual Health Advocacy Campaign </p>
+                            </div>
+
+                            <p className='my-1 text-[#727272] text-base'>To break the stigma surrounding menstruation, we engage in advocacy campaigns. These campaigns include:
+                            </p>
+
+                            <div className='my-6'>
+                                <p className='my-1 font-semibold text-[#727272]'>Community awareness events.
+                                </p>
+                                <p className='my-1 font-semibold text-[#727272]'>Interactive sessions, poster campaigns, and discussions.
+
+                                </p>
+                                <p className='my-1 font-semibold text-[#727272]'>Collaboration with schools, community leaders, and healthcare professionals.
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div className='my-8'>
 
 
 
 
                         {/* impact */}
                         <div className='my-8'>
-                            <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Looking Ahead</h1>
-                            <p className='my-1 text-[#727272] text-base'>While the Breast Cancer Screening Exercise was a significant milestone, our commitment to women's health continues. We aspire to expand our reach, conduct more awareness programs, and explore additional initiatives to address health challenges faced by women in the Northern sector of Ghana.</p>
+                            <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Impact</h1>
+
+                            <p className='my-1 text-[#727272] text-base'>Our Menstrual Health Support initiative has shown tangible results:
+
+
+                            </p>
+
+                            <div className='my-6'>
+                                <p className='my-1 font-semibold text-[#727272]'>Increased awareness and understanding of menstrual health.
+
+                                </p>
+                                <p className='my-1 font-semibold text-[#727272]'>Enhanced confidence and well-being among young girls.
+
+
+                                </p>
+                                <p className='my-1 font-semibold text-[#727272]'>Improved access to sanitary products, contributing to overall hygiene.
+
+
+                                </p>
+                            </div>
                         </div>
 
 
@@ -128,9 +172,11 @@ export default function page() {
 
                         {/*conclusion*/}
                         <div className='my-12 border-y-2 bg- py-6 bg-[#F2F2F2] px-6 '>
-                            <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Join Us in Building Healthier Communities
+                            <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Join Us in Supporting Menstrual Health
+
                             </h1>
-                            <p className='my-1 text-ourpin text-base'>At the Tung Teiya Dahamani Foundation, we believe that community health is a collective responsibility. Join us in our mission to create lasting change, promote health awareness, and make a positive impact on the lives of women in need.</p>
+                            <p className='my-1 text-ourpin text-base'>Improved access to sanitary products, contributing to overall hygiene.
+                            </p>
                         </div>
 
 

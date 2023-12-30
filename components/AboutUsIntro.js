@@ -1,12 +1,14 @@
 import React from 'react'
 import RadioButtonCheckedOutlinedIcon from '@mui/icons-material/RadioButtonCheckedOutlined';
+import Link from 'next/link';
+
 
 export default function AboutUsIntro() {
     return (
         <div className='w-full flex justify-center mt-44 mb-28 md:mt-60'>
 
 
-            <div className='w-[70%] flex flex-wrap md:flex  mx-auto   justify-center '>
+            <div className=' w-[85%] md:w-[70%] flex flex-wrap md:flex  mx-auto   justify-center '>
 
                 <div className=' w-full md:w-[45%]'>
                     <p className='text-ourpink my-1'>About us</p>
@@ -14,9 +16,11 @@ export default function AboutUsIntro() {
                     <p className='text-[#727272] text-sm w-full md:w-[80%]  my-2'>Our core mission is to empower lives and inspire positive change. We envision a world where the grip of poverty and hunger is replaced with opportunities for growth and prosperity.
                     </p>
 
-                    <button className='buttonprimary2 text-xs my-4'>
-                        More About
-                    </button>
+                    <Link href={'/about'}>
+                        <button className='buttonprimary2 text-xs my-4'>
+                            More About
+                        </button>
+                    </Link>
                 </div>
 
 

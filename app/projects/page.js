@@ -22,7 +22,7 @@ export default function page() {
 
             </div>
 
-            {/*  Our Story  */}
+            {/*  projects  */}
             <div className='w-full  bg-[#F1EEEC] '>
                 <div className="w-[80%]  md:w-[70%] mx-auto bg-blue-20  py-12 md:py-16 ">
                     <div className='flex flex-wrap lg:flex justify-betwee gap-4'>
@@ -41,13 +41,13 @@ export default function page() {
 
 
                             <div className='flex w-[80%] mx-auto gap-2 flex-wrap md:flex '>
-                                <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
-                                    <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>No Poverty</p>
+                                <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-1 items-center'>
+                                    <CheckCircleOutlineIcon className='text-[14px]' />
+                                    <p className='text-[12px]'>No Poverty</p>
                                 </div>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>Gender Equality</p>
+                                    <p className='text-[12px]'>Gender Equality</p>
                                 </div>
                             </div>
 
@@ -90,12 +90,9 @@ export default function page() {
                             <div className='flex w-[80%] mx-auto gap-2 flex-wrap md:flex '>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>No Poverty</p>
+                                    <p className='text-[12px]'> Good Health & Wellbeing</p>
                                 </div>
-                                <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
-                                    <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>Gender Equality</p>
-                                </div>
+
                             </div>
 
 
@@ -134,11 +131,15 @@ export default function page() {
                             <div className='flex w-[80%] mx-auto gap-2 flex-wrap md:flex '>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>No Poverty</p>
+                                    <p className='text-[12px]'>Good Health</p>
                                 </div>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>Gender Equality</p>
+                                    <p className='text-[12px]'>Gender Equality</p>
+                                </div>
+                                <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
+                                    <CheckCircleOutlineIcon className='text-sm' />
+                                    <p className='text-[12px]'>Quality Education</p>
                                 </div>
                             </div>
 
@@ -146,9 +147,11 @@ export default function page() {
 
 
                             <div className='flex gap-3 items-center w-[80%] my-3 mx-auto'>
-                                <button className='buttonprimary3 mb-6 mt-2 text-xs'>
-                                    View Project
-                                </button>
+                                <Link href={'/projects/menstrualhealthsupport'}>
+                                    <button className='buttonprimary3 mb-6 mt-2 text-xs'>
+                                        View Project
+                                    </button>
+                                </Link>
 
                                 <button className='px-3 rounded-full py-2 border-ourblack border mb-6 mt-2 text-xs'>
                                     Donate Now
@@ -156,7 +159,7 @@ export default function page() {
                             </div>
                         </div>
 
-                        {/* menstrual day */}
+                        {/* reproductive health */}
                         <div className='w-full md:w-[30%] cursor-pointer my-3   bg-white'>
 
 
@@ -176,11 +179,15 @@ export default function page() {
                             <div className='flex w-[80%] mx-auto gap-2 flex-wrap md:flex '>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>No Poverty</p>
+                                    <p className='text-[12px]'>Good Health</p>
                                 </div>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>Gender Equality</p>
+                                    <p className='text-[12px]'>Gender Equality</p>
+                                </div>
+                                <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
+                                    <CheckCircleOutlineIcon className='text-sm' />
+                                    <p className='text-[12px]'>Quality Education</p>
                                 </div>
                             </div>
 
@@ -188,9 +195,11 @@ export default function page() {
 
 
                             <div className='flex gap-3 items-center w-[80%] my-3 mx-auto'>
-                                <button className='buttonprimary3 mb-6 mt-2 text-xs'>
-                                    View Project
-                                </button>
+                                <Link href={'/projects/reproductivehealthsymposium'}>
+                                    <button className='buttonprimary3 mb-6 mt-2 text-xs'>
+                                        View Project
+                                    </button>
+                                </Link>
 
                                 <button className='px-3 rounded-full py-2 border-ourblack border mb-6 mt-2 text-xs'>
                                     Donate Now
@@ -206,9 +215,7 @@ export default function page() {
 
                             <div className='w-[80%] my-3  mx-auto'>
                                 <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-2xl'>Donation to FG Philadelphia Pastures</h1>
-                                <p className='my-3 text-[#727272] text-xs'>A reproductive health symposium was
-                                    organized for students of the UDS School of Business and Tamale Technical
-                                    University.
+                                <p className='my-3 text-[#727272] text-xs'>the Tung Teiya Dahamani Foundation carried out a meaningful initiative by donating 50 bags of rice along with essential provisions.
                                 </p>
 
 
@@ -218,11 +225,11 @@ export default function page() {
                             <div className='flex w-[80%] mx-auto gap-2 flex-wrap md:flex '>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>No Poverty</p>
+                                    <p className='text-[12px]'>No Poverty</p>
                                 </div>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>Gender Equality</p>
+                                    <p className='text-[12px]'>Zero Hunger</p>
                                 </div>
                             </div>
 
@@ -230,9 +237,11 @@ export default function page() {
 
 
                             <div className='flex gap-3 items-center w-[80%] my-3 mx-auto'>
-                                <button className='buttonprimary3 mb-6 mt-2 text-xs'>
-                                    View Project
-                                </button>
+                                <Link href={'/projects/fgphiladelphiadonation'}>
+                                    <button className='buttonprimary3 mb-6 mt-2 text-xs'>
+                                        View Project
+                                    </button>
+                                </Link>
 
                                 <button className='px-3 rounded-full py-2 border-ourblack border mb-6 mt-2 text-xs'>
                                     Donate Now
@@ -265,29 +274,34 @@ export default function page() {
                             <div className='flex w-[80%] mx-auto gap-2 flex-wrap md:flex '>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>No Poverty</p>
+                                    <p className='text-[12px]'>Zero Hunger</p>
                                 </div>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>Gender Equality</p>
+                                    <p className='text-[12px]'>Quality Education</p>
                                 </div>
+
                             </div>
 
 
 
 
                             <div className='flex gap-3 items-center w-[80%] my-3 mx-auto'>
-                                <button className='buttonprimary3 mb-6 mt-2 text-xs'>
-                                    View Project
-                                </button>
+
+                                <Link href={'/projects/specialneedssupport'}>
+                                    <button className='buttonprimary3 mb-6 mt-2 text-xs'>
+                                        View Project
+                                    </button>
+                                </Link>
 
                                 <button className='px-3 rounded-full py-2 border-ourblack border mb-6 mt-2 text-xs'>
                                     Donate Now
                                 </button>
+
                             </div>
                         </div>
 
-                        {/* special needs donation*/}
+                        {/* cleanup exercise*/}
                         <div className='w-full md:w-[30%] cursor-pointer my-3   bg-white'>
 
 
@@ -309,11 +323,56 @@ export default function page() {
                             <div className='flex w-[80%] mx-auto gap-2 flex-wrap md:flex '>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>No Poverty</p>
+                                    <p className='text-[12px]'>Good Health & Well being</p>
+                                </div>
+
+                            </div>
+
+
+
+
+                            <div className='flex gap-3 items-center w-[80%] my-3 mx-auto'>
+                                <Link href={'/projects/cleanupexercise'}>
+                                    <button className='buttonprimary3 mb-6 mt-2 text-xs'>
+                                        View Project
+                                    </button>
+                                </Link>
+
+                                <button className='px-3 rounded-full py-2 border-ourblack border mb-6 mt-2 text-xs'>
+                                    Donate Now
+                                </button>
+                            </div>
+                        </div>
+
+
+
+                        {/* water access*/}
+                        <div className='w-full md:w-[30%] cursor-pointer my-3   bg-white'>
+
+
+                            <div className='h-48 proImage7'></div>
+
+                            <div className='w-[80%] my-3  mx-auto'>
+                                <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-2xl'>
+                                    Water Access Project - Lungsi Fong
+                                </h1>
+                                <p className='my-3 text-[#727272] text-xs'> This project is crucial as it ensures improved access to clean water, thereby promoting community health, sanitation, and overall well-being.
+
+
+                                </p>
+
+
+                            </div>
+
+
+                            <div className='flex w-[80%] mx-auto gap-2 flex-wrap md:flex '>
+                                <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
+                                    <CheckCircleOutlineIcon className='text-sm' />
+                                    <p className='text-[12px]'>Good Health</p>
                                 </div>
                                 <div className='text-ourpink bg-[#F2F2F2] rounded-full py-2 px-3 flex gap-2 items-center'>
                                     <CheckCircleOutlineIcon className='text-sm' />
-                                    <p className='text-xs'>Gender Equality</p>
+                                    <p className='text-[12px]'>Clean Water</p>
                                 </div>
                             </div>
 
@@ -321,9 +380,11 @@ export default function page() {
 
 
                             <div className='flex gap-3 items-center w-[80%] my-3 mx-auto'>
-                                <button className='buttonprimary3 mb-6 mt-2 text-xs'>
-                                    View Project
-                                </button>
+                                <Link href={'/projects/wateraccess'}>
+                                    <button className='buttonprimary3 mb-6 mt-2 text-xs'>
+                                        View Project
+                                    </button>
+                                </Link>
 
                                 <button className='px-3 rounded-full py-2 border-ourblack border mb-6 mt-2 text-xs'>
                                     Donate Now

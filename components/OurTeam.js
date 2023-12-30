@@ -12,26 +12,37 @@ export default function OurTeam() {
                     <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-center text-3xl'>Meet Our Volunteers</h1>
 
                     {/* people */}
-                    <div className='flex flex-wrap md:flex items-center gap-8 my-6 justify-center'>
+                    <div className='flex flex-wrap md:flex items-cente gap-8 my-6 justify-center'>
+                        {/* queen */}
                         <div className='w-full md:w-[23%]'>
-                            <div className=' teamone h-72'> </div>
-                            <p className='font-semibold my-3 text-center'>Bruce Kambotuu</p>
+                            <div className=' teamone h-72 rounded-xl'> </div>
+                            <p className='font-semibold mt-2 w-full text-center '>QUEEN TUNG-TEIYA DAHAMANI</p>
+                            <p className='text-[#727272] text-center'>Founder & Executive Director</p>
                         </div>
+
+
+                        {/* frank */}
                         <div className='w-full md:w-[23%]'>
-                            <div className=' teamone h-72'> </div>
-                            <p className='font-semibold my-3 text-center'>Bruce Kambotuu</p>
+                            <div className=' teamtwo rounded-xl h-72'> </div>
+                            <p className='font-semibold mt-2 w-full text-center '>FRANK YOBAL</p>
+                            <p className='text-[#727272] text-center'>Administrator</p>
                         </div>
+                        {/* bruce */}
                         <div className='w-full md:w-[23%]'>
-                            <div className=' teamone h-72'> </div>
-                            <p className='font-semibold my-3 text-center'>Bruce Kambotuu</p>
+                            <div className=' teamthree rounded-xl h-72'> </div>
+                            <p className='font-semibold mt-2 w-full text-center '>BRUCE KAMBOTUU</p>
+                            <p className='text-[#727272] text-center'>PA & Co-Administrator</p>
                         </div>
-                        <div className='w-full md:w-[23%]'>
-                            <div className=' teamone h-72'> </div>
-                            <p className='font-semibold my-3 text-center'>Bruce Kambotuu</p>
-                        </div>
+
+
 
                     </div>
 
+                    <div className='flex justify-center mt-4 mb-8'>
+                        <button className='buttonprimary'>
+                            Meet The Team
+                        </button>
+                    </div>
 
                     <div className='bg-[#77D7D3] w-full py-4 px-8 flex justify-center'>
                         <div className='items-center flex flex-col'>

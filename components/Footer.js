@@ -1,65 +1,68 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 
 export default function Footer() {
     return (
-        <div className='w-full bg-[#2E4049] pt-16 pb-2'>
-            <div className='w-[60%] mx-auto flex'>
-                <div className=''>
+        <div className='w-full bg-[#384C56] py-12 flex justify-center'>
+
+
+            <div>
+                <p className='text-sm text-white text-center'>© The Tung-Teiya Dahamani Foundation</p>
+                <p className='text-sm font-light text-center text-white opacity-50 my-4'>Powered by Skytech Ltd</p>
+            </div>
+            {/* <div className='w-[90] md:w-[60%] mx-auto justifu-between md:px-12 py-32 flex flex-wrap md:flex'>
+                <div className='w-[30%] mx-auto'>
                     <Image
                         src={'/logo.png'}
-                        width={80}
+                        width={100}
                         height={100}
                     />
-
-                    <p className='text-white text-xs font-regular my-2 w-[50%]'>Care about people to transforming their lives
-                        and exudes a positives Impressiono believe. fundraising
-                        NGO organizations.
-                    </p>
-                    <Image
-                        src={'/Follow.png'}
-                        width={120}
-                        height={100}
-                        className='my-3'
-
-                    />
                 </div>
 
-                <div className='bg-[#384C56] w-[90%] py-6 gap-28  flex justify-center items-center'>
-                    <div>
-                        <h1 style={{ fontFamily: 'mincho' }} className='text-white text-lg' >Get Involved</h1>
-                        <div className='text-white text-xs flex flex-col my-6 gap-1'>
-                            {/* <button className='text-left my-1 hover:font-bold'>About Use</button> */}
-                            <button className='text-left my-1 hover:font-bold'>Volunteer</button>
-                            <button className='text-left my-1 hover:font-bold'>Causes</button>
-                            <button className='text-left my-1 hover:font-bold'>Projects</button>
-                            {/* <button className='text-left my-1 hover:font-bold'>Team</button> */}
+                <div className='w-[75%] mx-auto'>
+                    <div className='border-t-w order-white py-3'>
+
+                        <div className='flex items-center text-sm flex-wrap md:flex gap-4'>
+                            <Link href={'/'}>
+                                <button className='my- text-white'>
+                                    Home
+                                </button>
+                            </Link>
+
+                            <Link href={'/about'}>
+                                <button className='my- text-white'>
+                                    About Us
+                                </button>
+                            </Link>
+                            <Link href={'/projects'}>
+                                <button className='my- text-white'>
+                                    Our Causes
+                                </button>
+                            </Link>
+                            <Link href={'/team'}>
+                                <button className='my- text-white'>
+                                    Team
+                                </button>
+                            </Link>
+                            <Link href={'/contact'}>
+                                <button className='my- text-white'>
+                                    Team
+                                </button>
+                            </Link>
+                            <Link href={'/contact'}>
+                                <button className='my- text-white'>
+                                    Donate
+                                </button>
+                            </Link>
                         </div>
+
+
                     </div>
-
-
-                    <div>
-                        <h1 style={{ fontFamily: 'mincho' }} className='text-white text-lg ' >Reach Us</h1>
-                        <div className='text-white text-xs   my-4 gap-1'>
-                            <button className='text-left my-1 hover:font-bold'>660 Tamale Street, <br />88 Tamale</button>
-                            <div className='flex flex-col mt-1'>
-                                <button className='text-left my-1 hover:font-bold'>info@tdfoundation.com</button>
-                                <button className='text-left my-1 hover:font-bold'>024345678</button>
-                            </div>
-
-                        </div>
-                    </div>
-
-
                 </div>
+            </div> */}
 
-            </div>
-            <div className='border-t mt-12 py-6  border-white'>
-                <div className='text-white text-xs flex justify-center'>
-                    <p>Copyright © Tungteiya Dahamani Foundation | Designed by Richard Somda - Powered by Skytech Limited</p>
-                </div>
-            </div>
-        </div>
+        </div >
     )
 }
