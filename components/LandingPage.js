@@ -13,19 +13,15 @@ export default function LandingPage() {
     return (
         <div className='w-full'>
             <Hero />
-            <div className='mt-[800px] md:my-2'>
-                <AboutUsIntro />
-            </div>
-
+            <div className='mt-[800px] md:my-2'> <AboutUsIntro /></div>
             <OurCauses />
+
             <BecomeAVolunteer />
             <WhatWeDid />
             <FeaturedProjects />
             <Tally />
             <OurTeam />
             <Newsletter />
-
-
         </div>
 
 

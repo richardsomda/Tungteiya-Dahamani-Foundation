@@ -9,6 +9,7 @@ export default function OurTeam() {
     return (
         <div className='bg-[#F1EEEC] py-16 w-full'>
             <div className='w-[70%] mx-auto'>
+
                 <div>
                     <p className='text-ourpink my-1 text-center'>Our Team</p>
                     <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-center text-3xl'>Meet Our Volunteers</h1>
@@ -29,6 +30,9 @@ export default function OurTeam() {
                             <p className='font-semibold mt-2 w-full text-center '>FRANK YOBAL</p>
                             <p className='text-[#727272] text-center'>Administrator</p>
                         </div>
+
+
+
                         {/* bruce */}
                         <div className='w-full md:w-[23%]'>
                             <div className=' teamthree rounded-xl h-72'> </div>
@@ -40,6 +44,8 @@ export default function OurTeam() {
 
                     </div>
 
+
+
                     <div className='flex justify-center mt-4 mb-8'>
                         <Link href={'/team'}>
                             <button className='buttonprimary'>
@@ -47,6 +53,8 @@ export default function OurTeam() {
                             </button>
                         </Link>
                     </div>
+
+
 
                     <div className='bg-[#77D7D3] w-full py-4 px-8 flex justify-center'>
                         <div className='items-center flex flex-col'>
@@ -56,8 +64,9 @@ export default function OurTeam() {
 
                             <h1 style={{ fontFamily: 'mincho' }} className='font-bold mt-2 text-center text-[#2E4049] text-2xl'>Become A Volunteer</h1>
                             <p className='text-center'>Centuries but also the leap  electtypesetting, remaining </p>
-                            <button className='bg-[#2E4049] text-white px-6 py-3 my-4 rounded-full hover:bg-opacity-80 active:bg-opacity-100'>Join Us Today</button>
-
+                            <Link href={'/joinus'}>
+                                <button className='bg-[#2E4049] text-white px-6 py-3 my-4 rounded-full hover:bg-opacity-80 active:bg-opacity-100'>Join Us Today</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

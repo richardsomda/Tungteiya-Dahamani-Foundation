@@ -5,6 +5,8 @@ import React, { useRef } from 'react';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import ProjectGalleryComponent from '@/components/ProjectGalleryComponent';
 import DonateGeneral from '@/components/DonateGeneral';
+import Link from 'next/link';
+
 
 
 
@@ -101,20 +103,6 @@ export default function page() {
 
 
 
-
-
-                        {/*conclusion*/}
-                        {/* <div className='my-12 border-y-2 bg- py-6 bg-[#F2F2F2] px-6 '>
-                            <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-[20px]'>Gratitude
-
-
-                            </h1>
-                            <p className='my-1 text-ourpin text-base'>The Tung Teiya Dahamani Foundation expresses sincere gratitude to all participants, volunteers, and community members who actively contributed to the success of the cleanup exercise. Your dedication to creating a positive impact is commendable.
-                            </p>
-                        </div> */}
-
-
-
                     </div>
                 </div>
             </div>
@@ -160,9 +148,11 @@ export default function page() {
 
                     </div>
                     <div className='flex gap-6 my-16 justify-center flex-wrap md:flex'>
-                        <button className='buttonprimary2'>
-                            Join Our Organisation
-                        </button>
+                        <Link href={'/joinus'}>
+                            <button className='buttonprimary2'>
+                                Join Our Organisation
+                            </button>
+                        </Link>
                     </div>
                 </div>
 

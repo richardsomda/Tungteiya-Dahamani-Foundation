@@ -15,12 +15,19 @@ export default function OurCauses() {
                 <div className=' flex flex-wrap md:flex justify-between items-center'>
                     <div className='w-[85%] md:w-[70%]'>
                         <p className=' my-1'>Our Causes</p>
-                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold md:w-[80%] w-full text-2xl md:text-3xl'>Transforming Little Donations <br /> into Big Impacts</h1>
+
+                        <h1 style={{ fontFamily: 'mincho' }} className='font-bold md:w-[80%] w-full text-2xl md:text-3xl'>
+                            Transforming Little Donations <br /> into Big Impacts
+                        </h1>
+
                     </div>
 
-                    <button className='buttonprimary2 text-xs my-6'>
-                        More Causes
-                    </button>
+                    <Link href={'/projects'}>
+                        <button className='buttonprimary2 text-xs my-6'>
+                            More Causes
+                        </button>
+                    </Link>
+
                 </div>
             </div>
 
