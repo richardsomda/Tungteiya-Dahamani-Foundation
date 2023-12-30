@@ -31,9 +31,9 @@ export default function Hero() {
                     <div className='text-white text-sm md:text-base w-full sm:w-[60%] md:w-[70%] lg:w-[44%]'>
                         <p className='font-bold text-ourpink my-2'>Join us in</p>
 
-                        <p> "our mission to move poverty and hunger below the line. Together, let's build a future without limits.</p>
-                        <div className='flex justify-end my-4'>
-                            <p className='text-left flex justify-left text-xs'>-  Queen Teiya [GMB 2022]</p>
+                        <p className='font-semibold md:font-regular'> "our mission to move poverty and hunger below the line. Together, let's build a future without limits.</p>
+                        <div className='flex justify-start my-4'>
+                            <p className='text-left flex justify-left text-sm'>-  Queen Teiya [GMB 2022]</p>
                         </div>
                     </div>
 
