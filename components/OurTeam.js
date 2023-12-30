@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import VolunteerActivismOutlinedIcon from '@mui/icons-material/VolunteerActivismOutlined';
+import Link from 'next/link';
+
 
 
 export default function OurTeam() {
@@ -39,9 +41,11 @@ export default function OurTeam() {
                     </div>
 
                     <div className='flex justify-center mt-4 mb-8'>
-                        <button className='buttonprimary'>
-                            Meet The Team
-                        </button>
+                        <Link href={'/team'}>
+                            <button className='buttonprimary'>
+                                Meet The Team
+                            </button>
+                        </Link>
                     </div>
 
                     <div className='bg-[#77D7D3] w-full py-4 px-8 flex justify-center'>
