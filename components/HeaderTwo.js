@@ -11,7 +11,7 @@ export default function HeaderTwo() {
     const [menu, setMenu] = useState('Home');
 
     return (
-        <div className='w-[70%] mx-auto py-2 flex items-center justify-between'>
+        <div className='md:w-[90%] lg:w-[70%] mx-auto py-2 flex items-center justify-between'>
             <Link href={'/'}>
                 <button>
                     <Image

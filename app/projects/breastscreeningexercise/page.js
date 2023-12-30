@@ -156,8 +156,8 @@ export default function page() {
                     <h1 style={{ fontFamily: 'mincho' }} className='font-bold my-6 text-[20px]'>Project Gallery</h1>
 
                     <ProjectGalleryComponent
-                        projectFolder={'kayaphotos'}
-                        numImages={107}
+                        projectFolder={'breastphotos'}
+                        numImages={16}
                         className='rounded-3xl scale-75'
                         imagesPerPage={1}
 

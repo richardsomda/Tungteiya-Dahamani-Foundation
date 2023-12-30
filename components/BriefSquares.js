@@ -1,5 +1,7 @@
 import React from 'react'
 import PlayCircleFilledOutlinedIcon from '@mui/icons-material/PlayCircleFilledOutlined';
+import Link from 'next/link';
+
 
 
 export default function BriefSquares() {
@@ -15,9 +17,11 @@ export default function BriefSquares() {
                     <p className='text-sm'>
                         Addressing poverty, hunger, and related challenges in underprivileged communities. </p>
 
-                    <button className='buttonsecondary text-sm mt-4'>
-                        Discover
-                    </button>
+                    <Link href={'/about'}>
+                        <button className='buttonsecondary my-3 text-base'>
+                            Discover
+                        </button>
+                    </Link>
 
                 </div>
 

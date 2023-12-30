@@ -9,7 +9,7 @@ export default function BecomeAVolunteer() {
             <div className='w-[80%] py-16 flex flex-wrap md:flex text-white mx-auto'>
                 <div className=' w-full md:w-[55%]'>
                     <p className='text-ourpink my-1'>Become A Member</p>
-                    <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-3xl'>Join Our Community for <br /> Positive Change</h1>
+                    <h1 style={{ fontFamily: 'mincho' }} className='font-bold text-3xl'>Join Our Community for Positive Change</h1>
                     <p className='text-white text-sm w-[80%]  my-4'>Join THE TUNG TEIYA DAHAMANI FOUNDATION's vibrant community dedicated to providing education for children in need.
                     </p>
 
@@ -39,9 +39,9 @@ export default function BecomeAVolunteer() {
                             <div className='border-2 my-6 border-white py-2 px-1 w-full'>
                                 <input placeholder='Phone Number *' className='px-3 bg-transparent outline-none w-full text-white' type="text" />
                             </div>
-                            <div className='border-2  my-6 border-white py-2 px-1 w-full'>
-                                <textarea className='bg-transparent outline-none px-3 py-1' placeholder='message*' name="" id="" cols="43" rows="5"></textarea>
-                            </div>
+                            {/* <div className='border-2  my-6 border-white py-2 px-1 w-full'>
+                                <textarea className='bg-transparent outline-none px-3 py-1 md:cols-43' placeholder='message*' name="" id="" cols="28" rows="5"></textarea>
+                            </div> */}
 
                             <button className='buttonsecondary text-sm'>
                                 Submit Now

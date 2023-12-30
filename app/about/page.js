@@ -195,11 +195,11 @@ export default function page() {
             </div>
 
             <div className='w-[80%] md:w-[70%] mx-auto py-6 md:py-40'>
-                <div className='bg-red-400 rounded-xl my-6 px-16 py-6'>
+                <div className='bg-red-400 rounded-xl my-6  px-6 md:px-16 py-6'>
                     <h1 style={{ fontFamily: 'mincho' }} className='font-bol mt-2 text-white font-bold md:text-2xl text-2xl'>Our Challenges</h1>
                     <p className='mt-2 text-white'>While our achievements are significant, we acknowledge challenges, including limited resources and the need for sustainable funding to expand our reach.</p>
                 </div>
-                <div className='bg-green-400 rounded-xl my-6 px-16 py-6'>
+                <div className='bg-green-400 rounded-xl my-6 px-6 md:px-16 py-6'>
                     <h1 style={{ fontFamily: 'mincho' }} className='font-bol mt-2 text-white font-bold md:text-2xl text-2xl'>
                         Future Outlook
                     </h1>

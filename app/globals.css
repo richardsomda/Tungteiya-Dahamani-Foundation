@@ -69,6 +69,42 @@
   background-repeat: no-repeat;
   background-size: cover;
  }
+ .reproBackground {
+  background-image: url('/reprophotos/1.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .fgBackground {
+  background-image: url('/88.PNg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .specialBackground {
+  background-image: url('/99.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .waterBackground {
+  background-image: url('/waterphotos/1.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .cleanBackground {
+  background-image: url('/clean.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .newsBackground {
+  background-image: url('/news.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
  .flagshipbg {
   background-image: url('/pro5.png');
   object-fit: cover;
@@ -96,49 +132,56 @@
   background-size: cover;
  }
  .proone {
-  background-image: url('/pro1.jpg');
+  background-image: url('/kayaphotos/62.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
  }
+
  .protwo {
-  background-image: url('/pro2.jpg');
-  object-fit: contain;
+  background-image: url('/fgphotos/4.jpg');
+  object-fit:cover;
   background-repeat: no-repeat;
-  background-size: contain;
- }
- .protwo {
-  background-image: url('/pro2.jpg');
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
  }
  .prothree {
-  background-image: url('/pro3.jpg');
+  background-image: url('/cleanphotos/3.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
  }
  .profour {
-  background-image: url('/pro4.jpg');
+  background-image: url('/breastphotos/2.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
  }
  .profive {
-  background-image: url('/pro5.jpg');
+  background-image: url('/waterphotos/2.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
  }
  .teamone {
-  background-image: url('/t1.jpg');
+  background-image: url('/queen.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .teamtwo {
+  background-image: url('/frank.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .teamthree {
+  background-image: url('/bruce.png');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
  }
  .proImage1 {
-  background-image: url('/pro2.jpg');
+  background-image: url('/kayaphotos/62.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -169,6 +212,18 @@
  }
  .proImage6 {
   background-image: url('/clean.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proImage7 {
+  background-image: url('/waterphotos/1.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .proImage8 {
+  background-image: url('/cleanphotos/1.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
