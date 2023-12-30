@@ -79,9 +79,11 @@ export default function AboutUsIntro() {
                                 </div>
                             </div>
 
-                            <button className='buttonsecondary my- text-xs'>
-                                Donate Now
-                            </button>
+                            <Link href={'/donate'}>
+                                <button className='buttonsecondary my- text-xs'>
+                                    Donate Now
+                                </button>
+                            </Link>
                         </div>
 
 

@@ -21,9 +21,9 @@ export default function BecomeAVolunteer() {
 
                     />
 
-                    <button className='buttonprimary2  text-xs my-3'>
+                    {/* <button className='buttonprimary2  text-xs my-3'>
                         Donate Now
-                    </button>
+                    </button> */}
                 </div>
 
                 <div className='w-full md:w-[45%]'>
@@ -43,7 +43,7 @@ export default function BecomeAVolunteer() {
                                 <textarea className='bg-transparent outline-none px-3 py-1 md:cols-43' placeholder='message*' name="" id="" cols="28" rows="5"></textarea>
                             </div> */}
 
-                            <button className='buttonsecondary text-sm'>
+                            <button className='buttonsecondary w-full text-sm'>
                                 Submit Now
                             </button>
                         </div>

@@ -5,7 +5,7 @@ import React, { useRef } from 'react';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import ProjectGalleryComponent from '@/components/ProjectGalleryComponent';
 import DonateGeneral from '@/components/DonateGeneral';
-import { Call, Email } from '@mui/icons-material';
+import { Business, Call, Email } from '@mui/icons-material';
 
 
 
@@ -93,7 +93,7 @@ export default function page() {
 
 
             <div className=' bg-white w-[80%] md:w-[40%] mx-auto my-16'>
-                <h1 style={{ fontFamily: 'mincho' }} className='font-bold w-[40%] mx-auto text-[20px]'>Request A Call Back </h1>
+                <h1 style={{ fontFamily: 'mincho' }} className='font-bold mb-12 mx-auto text-[20px]'>Request A Call Back </h1>
 
                 <div>
                     <div className='w-full flex gap-8 md:gap-2 md:justify-between flex-wrap md:flex'>
@@ -111,7 +111,7 @@ export default function page() {
                     </div>
 
                     <div className='w-full flex justify-center'>
-                        <button className='buttonprimary2'>
+                        <button className='buttonprimary2 w- full md:w-[40%]'>
                             Request Call Back
                         </button>
                     </div>
@@ -119,26 +119,27 @@ export default function page() {
 
             </div>
 
-            {/* map comp */}
-
-            <div className='w-[70%] md:w-[50%] h-96 mx-auto my-16' >
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1373.722404372825!2d-0.8551493225258134!3d9.452145221152776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfd43c26c51751b7%3A0x724e1e3e8a7bff04!2sJiso%20Plaza!5e0!3m2!1sen!2sgh!4v1703949421053!5m2!1sen!2sgh" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
 
 
 
-            <div className='my-8 bg-[#384C56] w-[80%] md:w-[40%] mx-auto'>
-                <div className='py-6 md:py-16 px-3 md:px-12'>
-                    <h1 style={{ fontFamily: 'mincho' }} className='font-bold  text-white text-[20px]'>Contact Information</h1>
 
+            <div className='mt-8 mb-16 bg-[#384C56]  w-[80%] md:w-[40%] mx-auto'>
+                <div className='py-6 md:py-8 px-3 md:px-12'>
+                    <h1 style={{ fontFamily: 'mincho' }} className='font-bold mb-12 text-white text-[20px]'>Contact Information</h1>
 
-                    <div className='flex gap-2 md:gap-4 my-3 items-center'>
-                        <Call className='text-white text-xs md:text-sm' />
-                        <p className='my-1 text-white text-xs md:text-base'>0247105639 | 0247105639</p>
-                    </div>
-                    <div className='flex gap-2 md:gap-4 my-3 items-center'>
-                        <Email className='text-white text-xs md:text-sm' />
-                        <p className='my-1 text-white text-xs md:text-base w-[60%] md:w-full'>info@thetungteiyadahamanifoundation.org</p>
+                    <div>
+                        <div className='flex gap-2 md:gap-4 my-3 items-center'>
+                            <Call className='text-white text-xs md:text-sm' />
+                            <p className='my-1 text-white text-xs md:text-base'>0247105639 | 0247105639</p>
+                        </div>
+                        <div className='flex gap-2 md:gap-4 my-3 items-center'>
+                            <Email className='text-white text-xs md:text-sm' />
+                            <p className='my-1 text-white text-xs md:text-base w-[60%] md:w-full'>info@thetungteiyadahamanifoundation.org</p>
+                        </div>
+                        <div className='flex gap-2 md:gap-4 my-3 items-center'>
+                            <Business className='text-white text-xs md:text-sm' />
+                            <p className='my-1 text-white text-xs md:text-base w-[60%] md:w-full'>Jisoplaza, Jisonayili, Tamale N/R</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -117,6 +117,12 @@
   background-repeat: no-repeat;
   background-size: cover;
  }
+ .donateBackground {
+  background-image: url('/99.png');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 
 
 

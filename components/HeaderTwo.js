@@ -12,6 +12,7 @@ export default function HeaderTwo() {
 
     return (
         <div className='md:w-[90%] lg:w-[70%] mx-auto py-2 flex items-center justify-between'>
+
             <Link href={'/'}>
                 <button>
                     <Image
@@ -57,18 +58,22 @@ export default function HeaderTwo() {
                 </div>
                 {/* Projects */}
                 <div className='flex items-center'>
-                    <button onClick={() => setMenu('team')} className={` ${menu === 'team' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        Team
-                    </button>
+                    <Link href={'/team'}>
+                        <button onClick={() => setMenu('team')} className={` ${menu === 'team' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                            Team
+                        </button>
+                    </Link>
                     <p className='divider'>|</p>
                 </div>
 
 
                 {/* Contact */}
                 <div className='flex items-center'>
-                    <button onClick={() => setMenu('contact')} className={` ${menu === 'contact' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
-                        Contact
-                    </button>
+                    <Link href={'/contact'}>
+                        <button onClick={() => setMenu('contact')} className={` ${menu === 'contact' ? 'font-bold px-4 mx-1 py-3' : 'menubutton'}`}>
+                            Contact
+                        </button>
+                    </Link>
                     <p className='divider'>|</p>
                 </div>
 
@@ -84,9 +89,11 @@ export default function HeaderTwo() {
             <div className='flex items-center'>
                 {/* Contact */}
                 <div className='flex items-center'>
-                    <button className='buttonprimary'>
-                        Donate
-                    </button>
+                    <Link href={'/donate'}>
+                        <button className='buttonprimary'>
+                            Donate
+                        </button>
+                    </Link>
                 </div>
                 {/* <button className='text-sm px-4 mx-2     py-3 hover:bg-gray-100 active:bg-black active:text-white rounded-full border-ourblack border-2 border-opacity-o'>
                     Login

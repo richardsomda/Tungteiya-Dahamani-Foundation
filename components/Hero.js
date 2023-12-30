@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 export default function Hero() {
     return (
-        <div className='heroBackground w-full h-[540px] md:h-[600px] lg:[540px] items-cent flex justify-start '>
+        <div className='heroBackground w-full h-[600px] md:h-[700px] lg:[540px] items-cent flex justify-start '>
             <div className='my-16 w-[85%] md:w-[70%] mx-auto fle justify-between'>
                 <div className='flex flex-wrap md:flex items-center justify-between'>
                     <div>
@@ -18,7 +18,7 @@ export default function Hero() {
                         </h1>
 
                         <h1 className='font-extrabold text-left text-white text-4xl md:text-6xl customFont'>
-                            Poverty And <br />Hunger
+                            Poverty And <br /> Hunger
                         </h1>
 
                         <Image
@@ -33,7 +33,7 @@ export default function Hero() {
 
                         <p className='font-semibold md:font-regular'> "our mission to move poverty and hunger below the line. Together, let's build a future without limits.</p>
                         <div className='flex justify-start my-4'>
-                            <p className='text-left flex justify-left text-sm'>-  Queen Teiya [GMB 2022]</p>
+                            <p className='text-left flex justify-left text-sm'>- Queen Teiya [Ghana's Most Beautiful, 2022]</p>
                         </div>
                     </div>
 
@@ -43,9 +43,11 @@ export default function Hero() {
 
 
                 <div className='my-6 w-full'>
-                    <button className='bg-ourpink px-6 py-3 rounded-full text-white mr-4 hover:bg-opacity-90 active:bg-opacity-100 text-base'>
-                        Donate
-                    </button>
+                    <Link href={'/donate'}>
+                        <button className='bg-ourpink px-6 py-3 rounded-full text-white mr-4 hover:bg-opacity-90 active:bg-opacity-100 text-base'>
+                            Donate
+                        </button>
+                    </Link>
 
                     <Link href={'/about'}>
                         <button className='buttonsecondary text-base'>
