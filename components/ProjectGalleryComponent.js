@@ -8,7 +8,7 @@ const ProjectGalleryComponent = ({ projectFolder, numImages, imagesPerPage }) =>
     const [currentPage, setCurrentPage] = useState(1);
     const [currentImages, setCurrentImages] = useState(() =>
         Array.from({ length: imagesPerPage }, (_, index) => ({
-            src: `${basePath}${index + 1}.jpg`,
+            src: `${basePath}${index + 1}.webp`,
             width: 1,
             height: 1,
         }))
@@ -33,7 +33,7 @@ const ProjectGalleryComponent = ({ projectFolder, numImages, imagesPerPage }) =>
         if (newPage >= 1) {
             const startIndex = (newPage - 1) * imagesPerPage;
             const newImages = Array.from({ length: imagesPerPage }, (_, index) => ({
-                src: `${basePath}${startIndex + index + 1}.jpg`,
+                src: `${basePath}${startIndex + index + 1}.webp`,
                 width: 1,
                 height: 1,
             }));
@@ -47,7 +47,7 @@ const ProjectGalleryComponent = ({ projectFolder, numImages, imagesPerPage }) =>
         if (newPage <= totalPages) {
             const startIndex = (newPage - 1) * imagesPerPage;
             const newImages = Array.from({ length: imagesPerPage }, (_, index) => ({
-                src: `${basePath}${startIndex + index + 1}.jpg`,
+                src: `${basePath}${startIndex + index + 1}.webp`,
                 width: .5,
                 height: .5,
             }));

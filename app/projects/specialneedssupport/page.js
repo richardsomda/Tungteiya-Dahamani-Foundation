@@ -28,7 +28,7 @@ export default function page() {
 
     return (
         <div>
-            <div className='w-full specialBackground h-60 md:h-[600px]'>
+            <div className='w-full specialBackground h-72 md:h-[600px]'>
                 <div className=''></div>
                 <div className='w-[80%] md:w-[70%] mx-auto py-6 md:py-40'>
                     <h1 className='text-ourpink  text-lg mb-1'>Our Work</h1>
