@@ -28,7 +28,7 @@ export default function DonateGeneral() {
 
                     <div className='bg-white rounded-2xl my-6 py-3 px-3 flex gap-4 items-center'>
                         <Image
-                            src={'/qr.png'}
+                            src={'/qr.webp'}
                             width={90}
                             height={100}
                         />
@@ -40,7 +40,7 @@ export default function DonateGeneral() {
                         <h1 style={{ fontFamily: 'mincho' }} className='font-extrabold mt-1 md:text-2xl text-lg'>Acceptable methods</h1>
 
                         <Image
-                            src={'/payment.png'}
+                            src={'/payment.webp'}
                             width={300}
                             height={100}
                             className='my-2'
